@@ -1,0 +1,32 @@
+{
+  "configurations" : [
+    {
+      "id" : "E4B8C9D0-1A2F-4E3D-9C8B-7A6F5E4D3C2B",
+      "name" : "Default",
+      "options" : { }
+    }
+  ],
+  "defaultOptions" : {
+    "maximumTestExecutionTimeAllowance" : 300,
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:AuthenticateMe.xcodeproj",
+        "identifier" : "C77CECAF2FB4E14300220760",
+        "name" : "AuthenticateMeTests"
+      }
+    },
+    {
+      "parallelizable" : false,
+      "target" : {
+        "containerPath" : "container:AuthenticateMe.xcodeproj",
+        "identifier" : "C77CECB92FB4E14300220760",
+        "name" : "AuthenticateMeUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
